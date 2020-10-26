@@ -15,3 +15,4 @@ Sendo o teste F um teste de significância global de todos os regressores juntos
 
 Diferente do teste F, o teste T avalia cada regressor, e o p-valor dos testes T para cada um dos regressores menores que a significância,rejeitamos a hipótese nula também.
  
+O coeficiente de determinação, também chamado de R2 (ou R-Quadrado)é uma medida de ajuste do modelo estatístico e seu valor varia de 0 a 1.R-quadrado = Variação explicada/Variação total.  Quanto maior seu valor maior mais explitativo é o modelo. Na estimação em questão temos R2 igual a 0,954 ou de outra forma: 95%. Logo,o modelo explica 95% da variância da variável dependente(M1) em relação ao PIB, Juros e Inflação. 
