@@ -16,3 +16,7 @@ Sendo o teste F um teste de significância global de todos os regressores juntos
 Diferente do teste F, o teste T avalia cada regressor, e o p-valor dos testes T para cada um dos regressores menores que a significância,rejeitamos a hipótese nula também.
  
 O coeficiente de determinação, também chamado de R2 (ou R-Quadrado)é uma medida de ajuste do modelo estatístico e seu valor varia de 0 a 1.R-quadrado = Variação explicada/Variação total.  Quanto maior seu valor maior mais explitativo é o modelo. Na estimação em questão temos R2 igual a 0,954 ou de outra forma: 95%. Logo,o modelo explica 95% da variância da variável dependente(M1) em relação ao PIB, Juros e Inflação. 
+
+Sobre a variável dummy inserida, esta foi colocada apenas na última observação para fins de teste, com isto confirmamos que mesmo na última observação uma variável dummy força a regressão a passar por ela. Nas estimações das tabelas 1.2 e 1.3 em questão o uso da variável dummy não alterou os valores dos regressores, mexeu muito pouco nos coeficientes de determinação e nos valores dos testes F e T. Não alterou portando a conclusão dos testes de hipóteses.
+
+O uso de uma variável dummy pode auxiliar o analista numa estimação onde se faz estudos sócio-econômicos por exemplo: tem água encanada? Tem Internet? Se sim inserimos 1 se não inserimos 0. 
