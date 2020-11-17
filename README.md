@@ -5,6 +5,8 @@ Nele foram usados dados trimestrais do PIB nacional começando do primeiro trime
 
 O modelo tem como variável dependente(exógena) a demanda por encaixes monetários reais (M1) e as variáveis independentes(endógenas), o PIB Real representado por Y (quando se desconta a inflação),a taxa de juros nominal(R) e a taxa de inflação(PI)
 
+Para o leitor leigo explico que M1 é uma representação dos diferentes tipos de moeda no sistema econômico. M1 é a soma de todo papel-moeda e moéda metálica em poder do público mais depósitos à vista nos bancos comerciais. É o tipo de moeda que tem maior liquidez na economia.
+
 ## Explicando os resultados obtidos:
 
 Os resultados foram obtidos usando biblioteca statsmodel em Python, o modelo é não linear nas variáveis originais, mas linear na forma logarítmica. Assim, foi usado o método Mínimos Quadrados Ordinários(MQO) ou em inglês Least Squares(LS). Vale acrescentar que o layout dos resultados é bem semelhante à do e-views (para aqueles que não conhecem a ferramenta). 
